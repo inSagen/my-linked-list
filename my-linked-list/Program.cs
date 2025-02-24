@@ -1,3 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using MyLinkedListCollection;
+using System;
 
-Console.WriteLine("Hello, World!");
+    MyLinkedList linkedList = new MyLinkedList();
+    linkedList.Add(10);
+    linkedList.Add(20);
+    linkedList.Add(30);
+    linkedList.Print();
+
+    linkedList.Add(2, 40);
+    linkedList.Print();
+    linkedList[1] = 15;
+    linkedList.Print();
